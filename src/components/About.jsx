@@ -76,9 +76,12 @@ const About = () => {
     </div>
 
     <Typography variant="h4" sx={{ color: "white", mt: 12, textAlign: "center"}}>
-    
-    
-    </Typography>      
+    Interested in working together?
+    </Typography>
+
+    <CustomButton variant="outlined" sx={{ mx: "auto", mt: 3, mb: 8}}>
+      Get in touch
+    </CustomButton>      
 
   </Box>;
 };
