@@ -7,7 +7,7 @@ export default function ExperienceCard({}: Props) {
   return (
     <article className="flex flex-col rounded-lg items-center space-y-7 
     flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10
-    hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
+    hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden snap-mandatory">
      <motion.img 
      initial={{ 
         y:-100, 
@@ -44,7 +44,7 @@ export default function ExperienceCard({}: Props) {
             Started work... - Ended...
         </p>
 
-        <ul className="list-disc space-y-4 ml-5 text-lg h-[300px] overflow-x-auto">
+        <ul className="list-disc space-y-4 ml-5 text-md h-[300px] overflow-x-auto">
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis error harum rerum repellendus? Reprehenderit eos est vitae, ut, quia fugiat nam possimus cumque voluptates atque, magni velit praesentium cupiditate minima?</li>
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis error harum rerum repellendus? Reprehenderit eos est vitae, ut, quia fugiat nam possimus cumque voluptates atque, magni velit praesentium cupiditate minima?</li>
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis error harum rerum repellendus? Reprehenderit eos est vitae, ut, quia fugiat nam possimus cumque voluptates atque, magni velit praesentium cupiditate minima?</li>
