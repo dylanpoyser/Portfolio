@@ -26,7 +26,7 @@ export default function About({}: Props) {
             x:0,
             opacity: 1
         }}
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Frog_on_palm_frond.jpg/1200px-Frog_on_palm_frond.jpg"
+        src="https://firebasestorage.googleapis.com/v0/b/dylan-poyser.appspot.com/o/31252984_10156531056388901_2104018888202125312_n.jpg?alt=media&token=58cf5f91-060c-4f0e-a872-17b434589c0c"
         className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:h-[600px] xl:w-[500px]"
         />
 
@@ -34,8 +34,10 @@ export default function About({}: Props) {
             <h4 className="text-4xl font-semibold">
                 A <span className="underline decoration-[#0a98f7]/50">little</span> about me:
             </h4>
-            <p className="text-base">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam ea sapiente veniam id beatae, provident asperiores laboriosam a iure laudantium, delectus aliquid modi enim excepturi numquam? Optio officiis aut quidem!
+            <p className="text-base justify-evenly">
+            Hi, I'm Dylan! A software engineer driven by the goal of creating positive change in the world through technology. With my diverse background in photography, art, and writing, as well as years of customer service, 
+            I bring a unique perspective to my work in software engineering.  I believe it's truly a field where every bit of knowledge can improve your work. 
+            I'm always eager to learn and grow, and am seeking opportunities to work alongside experienced developers and make meaningful contributions to innovative projects.
             </p>
         </div>
 

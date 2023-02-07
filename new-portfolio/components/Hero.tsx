@@ -4,14 +4,17 @@ import BackgroundCircles from './BackgroundCircles';
 import Link from 'next/link';
 
 type Props = {}
+// TO DO: Card behind name.
 
 export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
-        "Hi!  I'm Dylan Poyser!",
+        "Hi!  I'm Dylan!",
         "Photographer",
         "Actor",
-        "Engineer"
+        "Explorer",
+        "Artist",
+        "Lifelong Learner"
     ],
     loop: false,
     delaySpeed: 2000,
@@ -21,7 +24,7 @@ export default function Hero({}: Props) {
     <BackgroundCircles />
     <img 
     className="relative rounded-full h-32 w-32 mx-auto object-cover"
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Frog_on_palm_frond.jpg/1200px-Frog_on_palm_frond.jpg"
+    src="https://firebasestorage.googleapis.com/v0/b/dylan-poyser.appspot.com/o/pictures%2FIMG_8700.jpg?alt=media&token=e2379cab-e2b4-41ce-9cd8-ec18dedf81ad"
     alt="Me"
     />
     <div className="z-20">
