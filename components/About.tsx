@@ -35,9 +35,9 @@ export default function About({}: Props) {
                 A <span className="underline decoration-[#0a98f7]/50">little</span> about me:
             </h4>
             <p className="text-base justify-evenly">
-            Hi, I`&apos;`m Dylan! A software engineer driven by the goal of creating positive change in the world through technology. With my diverse background in photography, art, and writing, as well as years of customer service, 
-            I bring a unique perspective to my work in software engineering.  I believe it`&apos;`s truly a field where every bit of knowledge can improve your work. 
-            I`&apos;`m always eager to learn and grow, and am seeking opportunities to work alongside experienced developers and make meaningful contributions to innovative projects.
+            Hi, I&apos;m Dylan! A software engineer driven by the goal of creating positive change in the world through technology. With my diverse background in photography, art, and writing, as well as years of customer service, 
+            I bring a unique perspective to my work in software engineering.  I believe it&apos;s truly a field where every bit of knowledge can improve your work. 
+            I&apos;m always eager to learn and grow, and am seeking opportunities to work alongside experienced developers and make meaningful contributions to innovative projects.
             </p>
         </div>
 
