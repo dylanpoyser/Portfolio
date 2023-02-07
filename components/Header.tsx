@@ -23,9 +23,6 @@ export default function Header({}: Props) {
             duration: .7,
         }}
         className="flex flex-row items-center">
-            {/* Social Icons */}
-
-            {/* <ion-icon name="logo-twitter"></ion-icon> */}
             <SocialIcon url="https://www.linkedin.com/in/dylanpoyser/" fgColor="gray" bgColor="transparent" />
             <SocialIcon url="https://github.com/dylanpoyser" fgColor="gray" bgColor="transparent" />
             <SocialIcon url="https://twitter.com/dylanpoysertech" fgColor="gray" bgColor="transparent" />

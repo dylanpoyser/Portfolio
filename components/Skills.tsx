@@ -4,7 +4,6 @@ import Skill from './Skill'
 
 type Props = {}
 
-// TO DO: Icons should rise 'up' or 'down' based on which half of the set they're in.
 
 
 

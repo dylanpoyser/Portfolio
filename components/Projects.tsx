@@ -3,7 +3,6 @@ import { motion } from 'framer-motion'
 
 type Props = {}
 
-// TO DO: Projects should display tech used.
 
 export default function Projects({}: Props) {
     const projects=[

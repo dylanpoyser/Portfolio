@@ -12,8 +12,6 @@ import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
-// TO DO: Background edits using tailwind.  Possibly using a texture.
-// Ensure animations are consistent in duration and effect
 
 export default function Home() {
   return (
