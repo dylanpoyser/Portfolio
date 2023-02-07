@@ -1,10 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 
-import { getFirestore, collection } from 'firebase/firestore'
-import firebase from '@/firebase/clientApp'
-import { useCollectionOnce } from "react-firebase-hooks/firestore"
-import db from '@/firebase/clientApp'
 type Props = {}
 
 // TO DO: Projects should display tech used.
@@ -31,18 +27,9 @@ export default function Projects({}: Props) {
         name: "Snowflakes",
         description: `A photography portfolio for two!  This project began as a way for us to increase our skill and understanding of the technologies used, namely:
          Firebase, Material UI, and ReactJS!`,
-      },
-      {
-        image: "",
-        name: "Spotify Clone",
-        description: ``,
       },]
 
-    // const [votes, votesLoading, votesError] = useCollectionOnce(db.getFirestore().collection("votes"),{})
-
-    // if(!votesLoading && votes) {
-    //     votes.docs.map((doc) => console.log(doc.data()));
-    // }
+      
   return (
     <motion.div 
     initial={{opacity: 0}}
