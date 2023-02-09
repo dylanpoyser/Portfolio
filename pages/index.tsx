@@ -9,6 +9,7 @@ import Skills from '@/components/Skills'
 import Projects from '@/components/Projects'
 import ContactMe from '@/components/ContactMe'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +17,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0
-    scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#0a98f7]/80">
+    scrollbar-hidden scrollbar-track-gray-400/20 scrollbar-thumb-[#0a98f7]/80 scroll-smooth">
       <Head>
         <title>Dylan Poyser</title>
         <meta name="description" content="Dylan Poyser" />
@@ -52,12 +53,12 @@ export default function Home() {
 
     <Link href="#hero">
     <footer className="sticky bottom-5 w-full cursor-pointer">
-      <div className="flex items-center justify-center">
-        <img
-        className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0
-        cursor-pointer"
-         src="https://firebasestorage.googleapis.com/v0/b/dylan-poyser.appspot.com/o/pictures%2FIMG_8700.jpg?alt=media&token=e2379cab-e2b4-41ce-9cd8-ec18dedf81ad" alt="" />
-      </div>
+      <motion.div className="flex items-center justify-center">
+         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
+        </svg>
+
+      </motion.div>
     </footer>
     </Link>
     
