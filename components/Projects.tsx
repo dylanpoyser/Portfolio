@@ -45,7 +45,7 @@ export default function Projects({}: Props) {
             {projects.map((project,i) =>(
                 <div key={i} className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center
                 justify-center p-20 md:p-44 h-screen">
-                    <motion.img className="h-3/6"
+                    <motion.img className="aspect-square sm:aspect-auto sm:w-auto sm:h-auto"
                         initial={{
                             y:-300,
                             opacity:0
@@ -55,12 +55,12 @@ export default function Projects({}: Props) {
                         viewport={{ once: true }} 
                     src={project.image} 
                     alt="" />
-                    <div className="space-y-10 px-0 md:px-10 max-d-6xl">
-                        <h4 className="text-4xl font-semibold text-center">
+                    <div className="space-y-3 sm:space-y-10 px-0 md:px-10 max-d-6xl">
+                        <h4 className="text-lg sm:text-4xl font-semibold text-center">
                             <span className="underline decoration-[#0a98f7]/50">Case Study {i + 1} of {projects.length}:</span> {project.name}
                         </h4>
 
-                        <p className="text-lg text-center md:text-left w-50%">
+                        <p className="text-sm sm:text-lg text-center md:text-left w-50% h-50%">
                             {project.description}
                         </p>
                     </div>

@@ -27,33 +27,33 @@ export default function ContactMe({}: Props) {
             Contact
         </h3>
 
-        <div className="flex flex-col space-y-10">
-            <h4 className="text-4xl font-semibold text-center"
+        <div className="flex flex-col space-y-5 sm:space-y-10">
+            <h4 className="text-base sm:text-4xl font-semibold text-center"
             >
                 Need a fast learner?  <span className="underline decoration-[#0a98f7]/50">Get in touch!</span>
             </h4>
 
-            <div className="space-y-10">
+            <div className="space-y-5 sm:space-y-10">
                 <div className="flex items-center space-x-5 justify-center">
                     <PhoneIcon className="text-[#0a98f7] h-7 w-7 animate-pulse" />
-                    <p className="text-2xl">+1(203)-767-0583</p>
+                    <p className="text-sm sm:text-2xl">+1(203)-767-0583</p>
                 </div>
                 
                 <div className="flex items-center space-x-5 justify-center">
                     <MapPinIcon className="text-[#0a98f7] h-7 w-7 animate-pulse" />
-                    <p className="text-2xl">New York, New York</p>
+                    <p className="text-sm sm:text-2xl">New York, New York</p>
                 </div>
 
                 <div className="flex items-center space-x-5 justify-center">
                     <EnvelopeIcon className="text-[#0a98f7] h-7 w-7 animate-pulse" />
-                    <p className="text-2xl">dylanpoysertech@gmail.com</p>
+                    <p className="text-sm sm:text-2xl">dylanpoysertech@gmail.com</p>
                 </div>
             </div>
 
-            <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-fit mx-auto">
-                <div className="flex space-x-2">
-                    <input {...register("name")} className="contactInput" placeholder="Name" type="text" />
-                    <input {...register("email")} className="contactInput" placeholder="Email" type="email" />
+            <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 sm:w-fit sm:mx-auto">
+                <div className="sm:flex sm:space-x-2">
+                    <input {...register("name")} className="w-full contactInput" placeholder="Name" type="text" />
+                    <input {...register("email")} className="w-full contactInput" placeholder="Email" type="email" />
                 </div>
 
                 <input {...register("subject")} className="contactInput" placeholder="Subject" type="text" />

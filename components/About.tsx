@@ -9,7 +9,7 @@ export default function About({}: Props) {
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
     transition={{ duration: 1.5 }} 
-    className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
+    className="flex flex-col relative h-screen text-center sm:text-justify md:text-justify md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
         <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
             About
         </h3>
@@ -34,7 +34,7 @@ export default function About({}: Props) {
             <h4 className="text-4xl font-semibold">
                 A <span className="underline decoration-[#0a98f7]/50">little</span> about me:
             </h4>
-            <p className="text-base justify-evenly">
+            <p className="text-base">
             Hi, I&apos;m Dylan! A software engineer driven by the goal of creating positive change in the world through technology. With my diverse background in photography, art, and writing, as well as years of customer service, 
             I bring a unique perspective to my work in software engineering.  I believe it&apos;s truly a field where every bit of knowledge can improve your work. 
             I&apos;m always eager to learn and grow, and am seeking opportunities to work alongside experienced developers and make meaningful contributions to innovative projects.
@@ -44,3 +44,5 @@ export default function About({}: Props) {
     </motion.div>
   )
 }
+
+//inter-word 

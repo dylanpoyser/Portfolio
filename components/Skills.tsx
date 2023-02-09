@@ -89,7 +89,7 @@ export default function Skills({}: Props) {
         Hover over a skill for current proficiency!
         </h3>
 
-        <div className="grid grid-cols-4 gap-5">
+        <div className="grid grid-cols-4 gap-2 sm:gap-5">
 
             
             {/* {skills.slice(0, skills.length / 2).map((skill) =>( 
