@@ -18,6 +18,7 @@ export default function Home() {
   return (
     <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0
     scrollbar-none scrollbar-track-gray-400/20 scrollbar-thumb-[#0a98f7]/80 scroll-smooth">
+      <div className="w-full absolute top-[30%] bg-[#0a98f7]/10 left-0 h-[500px] -skew-y-12"/>
       <Head>
         <title>Dylan Poyser</title>
         <meta name="description" content="Dylan Poyser" />
@@ -62,6 +63,8 @@ export default function Home() {
     </footer>
     </Link>
     
+    
     </div>
+    
   )
 }
